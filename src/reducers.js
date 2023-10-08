@@ -16,6 +16,9 @@ const reducer = (state, action) => {
                 action.setBalance(action.balance-50);
             }
             return state;
+
+            default : 
+            return state;
     }
 };
 
